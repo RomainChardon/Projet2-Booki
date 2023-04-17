@@ -213,6 +213,10 @@ border-radius: 15px 0px 0px 15px;
 }
 
 /****** Bouton de filtre ***********/
+.filter-bar {
+    align-items: center;
+}
+
 .filter-bar p {
     font-family: 'Raleway';
     font-style: normal;
@@ -245,8 +249,7 @@ border-radius: 15px 0px 0px 15px;
 
 /****** info bar ***********/
 .info-bar {
-    margin-bottom: 0px;
-    border: 1px solid darkblue;
+    height: 35px;
     align-items: center; 
 }
 
