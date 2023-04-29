@@ -55,6 +55,11 @@ body {
     color: var(--main-bg-color)
 }
 
+.lien-card {
+    color: black;
+    text-decoration: none;
+}
+
 /****** Header ***********/
 header {
     width: 100%;
