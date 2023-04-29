@@ -112,18 +112,14 @@ header {
 
 
 /****** search ***********/
-.search {-
+.search {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 0px;
     margin-bottom: 35px;
     width: 1340px;
     height: 281px;
-}
-
-.search section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .search-param {
@@ -437,7 +433,53 @@ border-radius: 15px 0px 0px 15px;
     margin-bottom: 5px;
 }
 
+/****** Activité à Marseille ***********/
 
+.activite-marseille {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activite-marseille section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+}
+
+.card-activite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.activite-title {
+    padding-left: 20px;
+}
+
+.activite-img {
+    width: 297.5px;
+    height: 380px;
+    background: url(/images/activites/reno-laithienne.jpg);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.img1 {
+    background: url(/images/activites/reno-laithienne.jpg);
+}
+
+.img2 {
+    background: url(/images/activites/paul-hermann.jpg);
+}
+
+.img3 {
+    background: url(/images/activites/kilyan-sockalingum.jpg);
+}
+
+.img4 {
+    background: url(/images/activites/florian-wehde.jpg);
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
