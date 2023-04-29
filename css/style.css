@@ -100,9 +100,10 @@ header {
     top: 0px;
 }
 
-.nav-bar button {
+.nav-btn {
     text-align: center;
     color: #0065FC;
+    text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -111,7 +112,7 @@ header {
     background-color: transparent;
 }
 
-.nav-bar button:hover {
+.nav-btn:hover {
     border-top: 2px solid #0065FC;
 }
 
@@ -217,16 +218,6 @@ border-radius: 15px 0px 0px 15px;
     align-items: center;
 }
 
-.filter-bar p {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: #000000;
-}
-
 .filter-bar button {
     display: flex;
     flex-direction: row;
@@ -239,6 +230,14 @@ border-radius: 15px 0px 0px 15px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
 }
 
 .filter-bar button:hover {
