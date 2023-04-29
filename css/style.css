@@ -51,7 +51,7 @@ body {
     font-weight: 700;
 }
 
-.neutralStar {
+.neutral-star {
     color: var(--main-bg-color)
 }
 
@@ -67,7 +67,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 30px 50px;
+    padding: 30px 0px;
     gap: 10px;
 
     position: relative;
@@ -301,6 +301,8 @@ border-radius: 15px 0px 0px 15px;
     height: 124px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+
 }
 
 
@@ -436,6 +438,7 @@ border-radius: 15px 0px 0px 15px;
 /****** Activité à Marseille ***********/
 
 .activite-marseille {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -484,6 +487,7 @@ border-radius: 15px 0px 0px 15px;
 /****** Footer ***********/
 
 footer {
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
