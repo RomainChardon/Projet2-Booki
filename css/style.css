@@ -120,9 +120,6 @@ header {
     height: 281px;
 }
 
-.search-param {
-    display: flex;
-}
 
 /****** Titre header ***********/
 .headline {
@@ -158,12 +155,12 @@ header {
 }
 
 .icon-form {
-height: 49px;
-width: 50px;
+    height: 49px;
+    width: 50px;
 
-background: #F2F2F2;
-border: 1px solid #F2F2F2;
-border-radius: 15px 0px 0px 15px;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .icon-form i {
@@ -210,25 +207,21 @@ border-radius: 15px 0px 0px 15px;
 /****** Bouton de filtre ***********/
 .filter-bar {
     align-items: center;
+    display: flex;
+    gap: 20px;
 }
 
 .filter-bar button {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 4px 19px;
-    gap: 10px;
-    height: 50px;
-    margin-left: 25px;
     background: white;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    
+    padding: 12px;
     
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     text-align: center;
     color: #000000;
@@ -242,6 +235,7 @@ border-radius: 15px 0px 0px 15px;
 
 /****** info bar ***********/
 .info-bar {
+    display: flex;
     height: 35px;
     align-items: center; 
 }
@@ -377,7 +371,6 @@ border-radius: 15px 0px 0px 15px;
     width: 811px;
     height: 21px;
 
-    /* Title/Filter */
 
     font-family: 'Raleway';
     font-style: normal;
