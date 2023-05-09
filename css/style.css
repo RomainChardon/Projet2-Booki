@@ -185,14 +185,16 @@ border-radius: 15px 0px 0px 15px;
     color: #000000;
     padding-left: 15px;
     padding-right: 15px;
-    border: none;
+    border: 1px solid #F2F2F2
 }
+
+
 
 .submit-btn {
     align-items: center;
     padding: 15px 16px;
     width: 132px;
-    height: 49px;
+    height: 52px;
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px; 
