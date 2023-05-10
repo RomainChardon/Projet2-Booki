@@ -269,60 +269,26 @@ header {
     box-sizing: border-box;
 }
 
-.ligne-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
-.card-heberg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 0px 15px;
-    width: 260px;
-    height: 207.25px;
-    background: #FFFFFF;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-}
-
-.card-heberg img {
-    width: 250px;
-    height: 124px;
-    border: 5px solid #FFFFFF;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-
-}
-
-
-
-/****** Hebergements ***********/
 .hebergements {
-    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 2rem;
 }
 
 .hebergements-title {
-    margin-bottom: -30px;
+    
 }
 
 .ligne-card {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+    flex-wrap: wrap; /*mettre un calc*/
 }
 
 .card-heberg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 0px 15px;
     width: 260px;
     height: 207.25px;
     background: #FFFFFF;
@@ -364,20 +330,12 @@ header {
 }
 
 .heberg-readmore {
-    margin-top: -10px;
-    margin-bottom: -10px;
-    padding: 0px;
-
-    width: 811px;
-    height: 21px;
-
-
+    margin: 0px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-
     color: #000000;
 }
 
@@ -437,15 +395,14 @@ header {
 .activite-marseille section {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 30px;
+    padding-top: 30px;
 }
 
 .card-activite {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-top: 20px;
+    gap: 30px;
 }
 
 .activite-title {
@@ -546,6 +503,12 @@ footer {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activite-img {
+        width: 193.5px;
+        height: 200px;
+        
     }
 }
 
