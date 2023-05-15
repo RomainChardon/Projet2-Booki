@@ -1,0 +1,2 @@
+- Card utilisier le calc 
+- responsive tel il faut travailler sur  767.98px ou sur le minimum 3601
