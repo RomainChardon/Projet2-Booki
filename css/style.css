@@ -64,7 +64,7 @@ main, header, footer {
 
 /****** Header ***********/
 header {
-    width: 100%;
+    width: calc(100% - 100px);
     height: 79px;
     display: flex;
     justify-content: space-between;
@@ -118,8 +118,7 @@ header {
     justify-content: space-between;
     padding: 0px;
     margin-bottom: 35px;
-    width: 1340px;
-    height: 281px;
+    gap: 30px;
 }
 
 
@@ -207,10 +206,15 @@ header {
 .filter-bar {
     align-items: center;
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
-.filter-bar button {
+.filter-btn {
+    display: flex;
+    gap: 15px;
+}
+
+.filter-btn button {
     align-items: center;
     background: white;
     border: 2px solid #D9D9D9;
@@ -272,6 +276,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    
 }
 
 
@@ -391,14 +396,14 @@ header {
     gap: 30px;
 }
 
+
 .activite-title {
     padding: 20px 19px;
 }
 
 .activite-img {
-    width: 297.5px;
+    width: 298px;
     height: 380px;
-    background: url(..//images/activites/reno-laithienne.jpg);
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -460,6 +465,10 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (768px <= width <= 1024px) {
+    header {
+        margin-bottom: 20px;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -470,17 +479,17 @@ footer {
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
     }
 
     .populaires-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        gap: 20px;
     }
 
-    .populaires-cards .card {
-        width: 30%;
+    .lien-card-populaire {
+        width: calc((100% / 3) - 20px);
     }
 
     .populaires-cards .card-title {
@@ -495,6 +504,12 @@ footer {
         width: 193.5px;
         height: 200px;
         
+    }
+
+    .filter-bar {
+        flex-direction: column;  
+        justify-content: center; 
+        align-items: flex-start;
     }
 }
 
