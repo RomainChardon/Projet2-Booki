@@ -60,7 +60,9 @@ main, header, footer {
     color: var(--main-bg-color)
 }
 
-
+.phone-version {
+    display: none;
+}
 
 /****** Header ***********/
 header {
@@ -201,6 +203,8 @@ header {
     text-align: center;
     cursor: pointer;
 }
+
+
 
 /****** Bouton de filtre ***********/
 .filter-bar {
@@ -464,7 +468,7 @@ footer {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (768px <= width <= 1024px) {
+@media ( width <= 1024px) {
     header {
         margin-bottom: 20px;
     }
@@ -565,6 +569,21 @@ footer {
         background-color: #0065FC;
     }
 
+    .submit-btn {
+        position: relative;
+        border-radius: 15px;
+        z-index: 5;
+        right: 15px;
+    }
+
+    .phone-version {
+        display: block;
+    }
+
+    .desktop-version {
+        display: none;
+    }
+
     .filter-bar {
         flex-direction: column;
     }
@@ -575,7 +594,7 @@ footer {
         gap: 15px;
     }
 
-    .filter-btn {
-        
+    .ligne-card {
+        flex-direction: column;
     }
 }
