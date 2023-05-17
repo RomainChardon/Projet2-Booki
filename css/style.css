@@ -518,7 +518,7 @@ footer {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (width < 768px) {
+@media (width <= 768px) {
     header {
         margin: 0;
         padding: 0;
@@ -569,6 +569,10 @@ footer {
         background-color: #0065FC;
     }
 
+    .search-bar {
+        padding-top: 20px;
+    }
+
     .submit-btn {
         position: relative;
         border-radius: 15px;
@@ -596,5 +600,10 @@ footer {
 
     .ligne-card {
         flex-direction: column;
+    }
+
+    .lien-card {
+        width: calc(100% - 30px);
+
     }
 }
