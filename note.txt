@@ -1,4 +1,0 @@
-gap sur les card activité laisse 30px 
-    sur la droite de la dernier card
-
-img de pomègues cahnge de taille 
