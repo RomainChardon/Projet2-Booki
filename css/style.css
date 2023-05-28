@@ -415,6 +415,26 @@ header {
     border-radius: 20px 20px 0 0;
 }
 
+.img-bg {
+    height: 100%;
+    background-position: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.img1 {
+    background-image: url('../images/activites/reno-laithienne.jpg');
+}
+.img2 {
+    background-image: url('../images/activites/paul-hermann.jpg');
+}
+.img3 {
+    background-image: url('../images/activites/kilyan-sockalingum.jpg');
+}
+.img4 {
+    background-image: url('../images/activites/florian-wehde.jpg');
+}
+
+
 .activite-title {
     padding: 20px;
 }
@@ -502,6 +522,7 @@ footer {
     .lien-card-activite {
         height: 270px;
     }
+    
 }
 
 /* Small devices (phones, less than 768px) */
